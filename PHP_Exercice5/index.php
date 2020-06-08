@@ -11,6 +11,6 @@
             return $txt1 . ' ' . $nb1 . ' ans.';
         }
     ?>
-    <p><?php echo p4Ex5('J\'ai ', 39); ?></p>
+    <p><?= p4Ex5('J\'ai ', 39); ?></p>
 </body>
 </html>

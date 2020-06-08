@@ -11,6 +11,6 @@
             return 'Bonjour '. $fName . ' ' . $lName . ' , tu as ' . $age . ' ans.';
         }
     ?>
-    <p><?php echo p4Ex6('Julien', 'Gioux', 39); ?></p>
+    <p><?= p4Ex6('Julien', 'Gioux', 39); ?></p>
 </body>
 </html>

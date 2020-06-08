@@ -9,19 +9,22 @@
     <?php
         function p4Ex7($age, $gender) {
             $result = [];
+
             if ($age >= 18) {
                 $result[0] = 'vous êtes majeur';
             } else {
                 $result[0] = 'vous êtes mineur';
             }
+
             if ($gender == 'Homme' || $gender == 'Femme') {
                 $result[1] = 'Vous êtes ' . $gender;
             } else {
                 $result[1] = 'Vous êtes une créature indéfinie';
             }
+            
             return $result[1] . ' et ' . $result[0] . '.';
         }
     ?>
-    <p><?php echo p4Ex7(39, 'Homme'); ?></p>
+    <p><?= p4Ex7(39, 'Homme'); ?></p>
 </body>
 </html>
